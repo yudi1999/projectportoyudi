@@ -1,0 +1,39 @@
+{
+  "name": "yudi-pratama-portfolio-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server manifest untuk Portofolio Resmi Yudi Pratama, S.Psi.",
+  "homepage": "https://projectportoyudi.netlify.app/",
+  "author": {
+    "name": "Yudi Pratama, S.Psi",
+    "email": "yudipratama1999@gmail.com",
+    "url": "https://projectportoyudi.netlify.app/"
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "get_full_profile",
+        "description": "Mendapatkan profil lengkap Yudi Pratama (Pendidikan, IPK, Pengalaman Kerja, dan Spesialisasi).",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "get_hr_tools_catalog",
+        "description": "Mendapatkan daftar 7+ aplikasi web HR dan asesmen psikologi (DISC, MBTI, KPI, 16PF) yang dibangun oleh Yudi Pratama.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "get_contact_and_cv",
+        "description": "Mendapatkan link unduh CV resmi (PDF) dan kontak resmi WhatsApp/Email Yudi Pratama.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    ]
+  }
+}
